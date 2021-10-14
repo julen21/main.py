@@ -6,10 +6,10 @@ from car_model import Car2
 from lane_following import CurvedRoad
 from defines import *
 
-def main2(size):
+def main2(size, título):
 
     screen = pygame.display.set_mode(size)
-    pygame.display.set_caption("mdeyo car sim")
+    pygame.display.set_caption(título)
     background = pygame.Surface(screen.get_size())
     background.fill((0, 0, 0))
 
